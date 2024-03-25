@@ -90,7 +90,7 @@ const handelSearch = (isShowAll) =>{
     toggelLoddingSpinner(true);
     const searchFiled = document.getElementById('search-filed')
     const searchText = searchFiled.value;
-    searchFiled.value = ''
+    // searchFiled.value = ''
     loadPhone(searchText, isShowAll);
 }
 
